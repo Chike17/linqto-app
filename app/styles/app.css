@@ -1,0 +1,307 @@
+.ember-application {
+  width: 100%;
+}
+
+body {
+  font-family: "Noto Sans JP";
+  background-color: #fafafa;
+}
+
+p {
+  margin: 20px;
+  color: #7f8c8d;
+  font-weight: 900;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+button {
+  border-radius: 3px;
+  border: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+  padding-top: 20px;
+  height: 50px;
+  padding-bottom: 0%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.linqto-link {
+  width: 10%;
+  margin-right: 45px;
+}
+
+.linqto-logo {
+  height: 50%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #7f8c8d;
+  align-self: flex-start;
+  /* margin-right: 3px;
+  margin-left: 3px; */
+}
+
+.fa-bars {
+  display: none;
+}
+
+.gateway {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.gate-link {
+  text-decoration: none;
+  color: #7f8c8d;
+  align-self: flex-start;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.sign-up {
+  color: #1a7789 !important;
+  font-weight: bold;
+}
+
+.search-icon {
+  color: #7f8c8d;
+  margin-top: 7px;
+  padding-left: 40px;
+}
+
+.info-content {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.slogan {
+  display: flex;
+  justify-content: center;
+}
+
+.slogan-item {
+  margin: 25px;
+  color: #1a7789;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro-title {
+  color: black;
+  font-size: 35px;
+  font-weight: 1000;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.benefit-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin-right: 15px;
+}
+
+.intro-item {
+  color: #1a7789;
+  margin-bottom: 20px;
+}
+
+.benefit-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.benefits {
+  display: flex;
+}
+
+.benefit-title {
+  margin-left: 30px;
+}
+
+.benefit-subtitle {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.benefit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 195px;
+  height: 195px;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 10px 30px 0 rgba(26, 49, 76, 0.08);
+  padding: 10px;
+  font-size: 12px;
+  color: #1a7789;
+  margin: 20px;
+}
+
+.benefit-item {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.last-benefit {
+  margin: 20px auto;
+}
+
+.benefit-icon {
+  color: black;
+}
+
+.input-email {
+  color: #7f8c8d;
+}
+
+.subscribe {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.live {
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 50px;
+}
+
+.fa-globe-americas {
+  margin-bottom: 40px;
+}
+
+.notify {
+  font-weight: 900;
+}
+
+.fa-user-check {
+  margin-left: 18px;
+}
+
+.pop-pick-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  background-color: white;
+}
+
+.pop-pick {
+  height: 7%;
+  width: 7%;
+  margin-left: 15px;
+  margin-right: 15px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.pop-pick-title {
+  font-weight: bold;
+}
+
+.pop-picks {
+  display: flex;
+  justify-content: center;
+}
+
+.get-the-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.get-the-app-title {
+  font-weight: bold;
+}
+
+.app-stores {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.app-store {
+  width: 15%;
+  height: 15%;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.get-app-text {
+  font-weight: bold;
+}
+.get-global-id {
+  margin: auto;
+  margin-bottom: 40px;
+  background-color: black;
+  height: 40px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+input {
+  display: block;
+  height: 30px;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid black;
+  outline: 0.5px solid white;
+}
+
+.linqto-footer {
+  display: flex;
+  justify-content: center;
+  background: black;
+  width: 100%;
+}
+
+.copyright-footer {
+  background-color: black;
+  color: #7f8c8d;
+  font-size: 12px;
+  padding-bottom: 10px;
+  text-align: center;
+}
